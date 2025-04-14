@@ -30,6 +30,7 @@ jobs:
         pip install PyQt6
         pip install PyQt6-Charts
         pip install requests
+        pip install libegl1
     #- name: Lint with flake8
      # run: |
         # stop the build if there are Python syntax errors or undefined names
