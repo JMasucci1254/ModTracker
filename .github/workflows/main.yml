@@ -5,9 +5,9 @@ name: ModTracker
 
 on:
   push:
-    branches: [ "workflow_tests" ]
+    branches: [ main, workflow-tests ]
   pull_request:
-    branches: [ "workflow_tests" ]
+    branches: [ main, workflow-tests ]
 
 permissions:
   contents: read
